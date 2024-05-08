@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>body{
+        margin: 0px;
+    }
+        .nav{
+            border: 2px solid green;
+            display:flex;
+            width: 100%;
+            height: 70px;
+            justify-content:space-around;
+            align-items: center;
+            background-color: green; border-radius: 6px;
+            color: whitesmoke; 
+        }
+        .nav img{
+            width:60px;height:60px;
+        }
+        li{font-size: 20px;
+            list-style: none;
+        }
+        .b{
+            width: 70px;
+            padding: 2px;
+            margin: 2px;
+            height: 40px;
+            background-color: #9BCF53;
+            border-radius: 6px;
+        }
+        .b a{
+            text-decoration: none;
+        }
+        .b:hover{
+            transform: translate(5px,2px);
+        }
+        .sec{position: relative;
+            top:90px;
+            left: 300px;
+            width: 856px;height:462px;border: 2px solid green;
+            display: inline-flex;gap:130px;align-items: center;
+            border-radius: 7px;box-shadow: 10px 10px 19px 3px rgb(173, 230, 223);
+        }
+       .it{
+            width:350px;height:462px;
+            background-color: #9BCF53;border-right: 5px solid green;
+            border-radius:0 60% 90% 0;opacity: 1;
+            /* animation: change 2s normal 3s infinite; */
+        }
+        
+        button{
+            background-color: green;font-size:15px;color: white;
+            width: 250px; height: 35px; border-radius: 6px;
+        }.s2{
+            display:flex;flex-direction: column;gap:2rem;
+        }
+        .s2 h4,h3{
+            margin:0px;
+        }
+        .tex{
+            border-radius: 4px; height:35px;width:125px;
+        }
+       .last{
+        background-color: green;height: 400px;width: 100%;position: relative;
+        top:170px; border-radius: 30px 30px 0 0px;
+        display:flex;justify-content: center;align-items: center;gap:10rem;
+        
+       }.l2{
+        text-align:left; color: white;
+       }.l1{
+        text-align:left; width:700px;color: white;
+       }footer{
+      flex-direction: column;
+       }
+       .l1 h2{display: inline;
+        text-align: center;
+       }.foot{
+        position: absolute;
+    top: 1050px;
+    left: 550px;color: white;
+       }
+       .che{float: left;margin:0px;
+        height: 20px; width:40px;
+       }
+      #int{
+        display: flex;flex-direction:row;gap: 1.5rem;
+      }
+      .den{
+        border-radius: 4px; height:35px;width:230px;
+      }
+      a{
+        text-decoration: none;color: white;
+       } .login{
+color: blue;
+       }
+    </style>
+</head>
+<body>
+    <div class="nav"> 
+        <img src="assets/1.n2.webp" alt="f" width="60px"height="60px">
+        <li>Home</li>
+        <li>Become a contributor</li>
+        <li>Projects</li>
+        <li>About Us</li>
+        <button class="b"><a href="#">Sign Up</a> </button>
+        <button class="b"><a href="#">Login</a> </button>
+     </div>
+     <div id="sign">
+     <div class="sec">
+          <img class="it" src="assets/lo.png" alt="f"> 
+          <!-- <img  class="it2" src="lo2.png" alt="f"> -->
+     <div class="s2">
+        <div><h3><strong>Sign up to BitBhoomi
+        </strong></h3></div>
+        <div id="int"><input  class="tex"type="text" placeholder="Firstname">
+            <input class="tex" type="text" placeholder="Lastname"></div>
+
+           <div><input class="den" type="text" placeholder="Phone or Email"></div>
+           <div> <input class="den" type="text" placeholder="Create Password"></div>
+           <div><input class="che" type="checkbox">I agree with terms and conditions
+           </div>
+          <div> <button>Signup</button>
+            <h4>
+             Don't have an Account? 
+             <a class="login" href="login.html">Login</a></h4></div>
+        </div>
+     </div></div>
+     <div class="last">
+        <div class="l1"><img src="assets/1.n2.webp" alt="f" width="100px" height="100px">
+            <h2>BitBhoomi</h2>
+        <h3>BitBhoomi: Where Technology meets Sustainability!</h3>
+    </div>
+ <div class="l2">
+    <h3>Address: <br>
+        3891 Ranchview Dr. Richardson, California 62639 <br>
+        (319) 555-0115 <br>
+        deanna.curtis@example.com <br>
+        Follow us on: <img src="assets/insta.png" alt="f" width="25px" height="27px">
+        </h3>
+ </div>
+     </div>
+     <div class="foot"><footer>© Copyright 2022, All Rights Reserved Lorem Ipsum Technologies Pvt</footer> </div>
+    
+</body>
+</html>
